@@ -28,10 +28,15 @@
                     homeScoreEl.textContent = homeScore
                 ">&plus;3</button>
             </div>
-            
+            <div class="secondary-button">
+                <button class="reset-button" id="homeResetBtn" onclick="
+                    homeScore = 0;
+                    homeScoreEl.textContent = homeScore;
+                    ">Reset</button>
+            </div>
         </div>
         <div class="guest">
-            <p>Guest</p>
+            <p>Away</p>
             <div class="score">
                 <p id="away-score"></p>
             </div>
@@ -48,6 +53,12 @@
                     awayScore += 3;
                     awayScoreEl.textContent = awayScore
                 ">&plus;3</button>
+            </div>
+            <div class="secondary-button">
+                <button class="reset-button" id="awayResetBtn" onclick="
+                    awayScore = 0;
+                    awayScoreEl.textContent = awayScore
+                    ">Reset</button>
             </div>
         </div>
     </div>

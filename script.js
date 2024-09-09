@@ -14,3 +14,6 @@ let addThreeHomeBtn = document.getElementById("btnAdd3Home");
 let addOneAwayBtn = document.getElementById("btnAdd1Away");
 let addTwoAwayBtn = document.getElementById("btnAdd2Away");
 let addThreeAwayBtn = document.getElementById("btnAdd3Away");
+
+let homeResetBtn = document.getElementById("homeResetBtn");
+let awayResetBtn = document.getElementById("awayResetBtn");
